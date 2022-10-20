@@ -1,4 +1,4 @@
 from django.shortcuts import render
-from django.views import path,urls
 
-urlspattern = []
+def post_list(request):
+    return render(request, 'Blog/post_list.html', {})
