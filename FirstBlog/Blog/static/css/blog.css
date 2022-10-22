@@ -1,0 +1,59 @@
+h1 a,h2 a {
+    color:maroon;
+    text-decoration: none;
+}
+
+.page-header {
+    background-color: crimson;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea,
+.post-form input {
+    width: 100%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #fff;
+    float: right;
+    font-size: 18pt;
+    margin-right: 20px;
+}
+
+.post > .date,
+.post > .actions {
+    float: right;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #c25100;
+    background: none;
+    border-color: #C25100;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #C25100;
+}
